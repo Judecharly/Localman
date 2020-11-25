@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/44c4f0b9d3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>UccCarlo</h1>
+        <p>UccCarlo is a web designer and developer. Are you in need of a web developer to help you build an interactive website? UccCarlo is here for you.
+        </p>
+    </div>
+    <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">News</a>
+        <a href="#">Contact</a>
+        <a href="#" style="float:right">About</a>
+    </div>
+    </div>
+    <div class="row">
+        <div class="leftcolumn">
+            <div class="card">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Nov 19, 2020</h5>
+                <div class="fakeimg">
+                    <a href="https://www.facebook.com"> <img src="img/rock.jpg" alt="Igneous rock" width=800px height=300px></a>
+                </div>
+
+                <p>Some text...</p>
+                <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectur adipiscing elit,
+                </p>
+            </div>
+            <div class="card">
+                <h2>CARTOON ILLUSTRATION</h2>
+                <h5>Some cartoon illustration jobs undertaken by UccCarlo, Nov 19, 2020</h5>
+                <div class="fakeimg">
+                    <div class="slider">
+                        <div class="slides">
+                            <input type="radio" name="radio-btn" id="radio1">
+                            <input type="radio" name="radio-btn" id="radio2">
+                            <input type="radio" name="radio-btn" id="radio3">
+                            <input type="radio" name="radio-btn" id="radio4">
+
+                            <div class="slide first">
+                                <img src="img/Jaycee.jpg" alt="Jaycee">
+                            </div>
+                            <div class="slide">
+                                <img src="img/Pccj.jpg" alt="Pccj">
+                            </div>
+                            <div class="slide">
+                                <img src="img/Omah.jpg" alt="Omah">
+                            </div>
+                            <div class="slide">
+                                <img src="img/Light.jpg" alt="Light">
+                            </div>
+
+                            <div class="navigation-auto">
+                                <div class="auto-btn1"></div>
+                                <div class="auto-btn2"></div>
+                                <div class="auto-btn3"></div>
+                                <div class="auto-btn4"></div>
+                            </div>
+
+                            <div class="navigation-manual">
+                                <label for="radio1" class="manual-btn"></label>
+                                <label for="radio2" class="manual-btn"></label>
+                                <label for="radio3" class="manual-btn"></label>
+                                <label for="radio4" class="manual-btn"></label>
+                            </div>
+                        </div>
+                    </div>
+                    <script type="text/javascript">
+                        var counter = 1;
+                        setInterval(function() {
+                            document.getElementById('radio' + counter).checked = true;
+                            counter++;
+                            if (counter > 4) {
+                                counter = 1;
+                            }
+                        }, 10000);
+                    </script>
+                </div>
+            </div>
+        </div>
+        <div class="rightcolumn">
+            <div class="card">
+                <h2 style="text-align:center; text-decoration:underline">About Me</h2>
+                <div class="fakeimg" style="text-align:center">
+                    <img src="img/Aboutme.jpg" alt="A beautiful wall" height=200px width="200px" justify:center>
+
+                    <p style="text-align:center">I am Jude Carlo, the founder of UccCarlo. I am a graphic designer, web developer and content writer. I am fun to be with and I deliver on time everytime. Do well to contact me!!! Love ya loads
+                    </p>
+                </div>
+            </div>
+            <div class="card">
+                <h3>Popular Post</h3>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+                <div class="fakeimg">
+                    <p>Image</p>
+                </div>
+            </div>
+            <div class="card">
+                <h3 style="text-align:center">Follow Me</h3>
+                <div style="position:center">
+                    <a href="https://www.facebook.com/charleston.jude"><img src="img/Facebook-logo.png" width=70px height=50px></a>
+                    <a href="https://twitter.com/Judecharles_"><img src="img/Twitter.png" width=50px height=50px</a>
+                        <a href="https://www.instagram.com/judecharly/"><img src="img/instagram.png" width=50px height=50px></a>
+                </div>
+            </div>
+            <div class="card">
+                <h4>Send us a mail</h4>
+                <form name="Mail" action="MAILTO:Uzorkelechijude@gmail.com&CcJude4science@gmail.com" method="post" enctype="text/plain">
+                    Name:<br>
+                    <input type="text" name="name" value="yourname" size="50">
+                    <br> Email Address:
+                    <br>
+                    <input type="text" name="Email" value="Email address" size="50">
+                    <br> Message:
+                    <br>
+                    <textarea rows="10" cols="53">Feel free to send a message</textarea>
+                    <br><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <p>@2020 UccCarlo, Inc</p>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+        <a href="#">Status</a>
+        <a href="#">Help</a>
+        <a href="#">Contact Judecharly</a>
+        <a href="#">Pricing</a>
+        <a href="#">About</a>
+    </div>
+</body>
+
+</html>
